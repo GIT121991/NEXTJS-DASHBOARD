@@ -100,7 +100,7 @@ async function seedRevenue() {
 
   return insertedRevenue;
 }
-
+/*
 export async function GET() {
   try {
     const result = await sql.begin((sql) => [
@@ -114,4 +114,6 @@ export async function GET() {
   } catch (error) {
     return Response.json({ error }, { status: 500 });
   }
+    
 }
+  */
